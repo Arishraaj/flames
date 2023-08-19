@@ -3,8 +3,8 @@
 while True:
     t=input("Do u want to play (yes/no) : ").lower()
     if t=="yes":
-        boyname=input("Enter the name : ").lower()
-        girlname=input("Enter the name : ").lower()
+        boyname=input("Enter the Boy name : ").lower()
+        girlname=input("Enter the Gurl name : ").lower()
         for x in boyname:
             if x in girlname:
                 boyname=boyname.replace(x,"")
@@ -15,15 +15,15 @@ while True:
         if r==0:
             print("Friends")
         elif r==1:
-            print("Love")
+            print("Love 💘")
         elif r==2:
-            print("Affection")
+            print("Affection 🤍")
         elif r==3:
-            print("Marriage")
+            print("Marriage 💍")
         elif r==4:
-            print("Enemy")
+            print("Enemy 💔")
         elif r==5:
-            print("Sister")
+            print("Sister ")
     elif t=="no":
         print("Thank you")
  #       quit()
